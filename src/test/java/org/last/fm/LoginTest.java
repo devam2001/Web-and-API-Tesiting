@@ -1,8 +1,5 @@
 package org.last.fm;
 
-import com.browser.BrowserFactory;
-import org.openqa.selenium.WebDriver;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.util.ResourceBundle;

@@ -3,12 +3,12 @@ package org.last.fm;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-public class EditDetailsOfPlayistTest {
-    WebDriver driver;
+public class EditDetailsOfPlayistTest extends TestBase {
+    EditDetailsOfPlayList ob;
 
     @Test(priority = 5)
     public void editdetailsofplaylist() throws InterruptedException {
-        EditDetailsOfPlayList ob = new EditDetailsOfPlayList(driver);
+        ob = new EditDetailsOfPlayList(driver);
 
         Thread.sleep(4000);
         ob.setPlayListName();

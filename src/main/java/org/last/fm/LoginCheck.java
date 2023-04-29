@@ -1,6 +1,5 @@
 package org.last.fm;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,9 +10,9 @@ public class LoginCheck {
     WebDriver driver;
 
     @FindBy(xpath = "//a[contains(@class, 'auth-link')]")
-            private WebElement MainPage;
+             WebElement MainPage;
     @FindBy(xpath = "//h1[@class='header-title']")
-            private WebElement Check;
+             WebElement Check;
 
 
     public LoginCheck(WebDriver driver){

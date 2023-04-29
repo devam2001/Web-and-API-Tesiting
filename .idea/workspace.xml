@@ -5,10 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f938bc2-f32d-44bb-a7d3-103cc7e592dc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/last/fm/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/last/fm/FakeLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/last/fm/FakeLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/last/fm/AddPlaylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/last/fm/AddPlaylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/last/fm/AddTrackInPlaylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/last/fm/AddTrackInPlaylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/last/fm/DeletePlaylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/last/fm/DeletePlaylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/last/fm/EditDetailsOfPlayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/last/fm/EditDetailsOfPlayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/last/fm/LoginCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/last/fm/LoginCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/last/fm/RemoveSongFromPlaylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/last/fm/RemoveSongFromPlaylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/last/fm/AddPlaylistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/last/fm/AddPlaylistTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/last/fm/AddTrackinPlaylistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/last/fm/AddTrackinPlaylistTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/last/fm/DeletePlaylistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/last/fm/DeletePlaylistTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/last/fm/EditDetailsOfPlayistTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/last/fm/EditDetailsOfPlayistTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/last/fm/LoginCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/last/fm/LoginCheckTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/last/fm/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/last/fm/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/last/fm/LoginCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/last/fm/LoginCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__Maven_LastFmTesting_.idea.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__Maven_LastFmTesting_.idea.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__Maven_LastFmTesting_.idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/E__Maven_LastFmTesting_.idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.last.fm.FakeLoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.last.fm.FakeLoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.last.fm.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-org.last.fm.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/last/fm/LoginCheckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/last/fm/LoginCheckTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/org/last/fm/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/org/last/fm/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +76,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.last.fm" />
+    </key>
+  </component>
   <component name="RunManager" selected="TestNG.LastFm">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="LastFmTesting" />

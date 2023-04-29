@@ -3,13 +3,13 @@ package org.last.fm;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-public class AddTrackinPlaylistTest {
-    WebDriver driver;
+public class AddTrackinPlaylistTest extends TestBase {
 
+    AddTrackInPlaylist addT;
     @Test(priority = 6)
     public void addtracktoplaylist() throws InterruptedException {
 
-        AddTrackInPlaylist addT = new AddTrackInPlaylist(driver);
+        addT = new AddTrackInPlaylist(driver);
 
         Thread.sleep(4000);
 
