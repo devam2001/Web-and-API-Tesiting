@@ -5,24 +5,13 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="https://www.last.fm/"/>
     <classes>
-      <class name="org.last.fm.DeletePlaylistTest">
+      <class name="org.last.fm.LogOutTest">
         <methods>
-          <include name="setup"/>
           <include name="tearDown"/>
-          <include name="deleteplaylist"/>
-        </methods>
-      </class> <!-- org.last.fm.DeletePlaylistTest -->
-      <class name="org.last.fm.RemoveSongFromPlaylistTest">
-        <methods>
-          <include name="removesongfromplaylist"/>
-        </methods>
-      </class> <!-- org.last.fm.RemoveSongFromPlaylistTest -->
-      <class name="org.last.fm.AddTrackinPlaylistTest">
-        <methods>
           <include name="setup"/>
-          <include name="addtracktoplaylist"/>
+          <include name="logoutVerification"/>
         </methods>
-      </class> <!-- org.last.fm.AddTrackinPlaylistTest -->
+      </class> <!-- org.last.fm.LogOutTest -->
     </classes>
   </test> <!-- E:/Maven/LastFmTesting/.idea(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

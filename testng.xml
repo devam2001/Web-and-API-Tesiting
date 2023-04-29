@@ -11,10 +11,10 @@
             <class name="org.last.fm.LoginCheckTest"/>
             <class name="org.last.fm.AddPlaylistTest"/>
             <class name="org.last.fm.EditDetailsOfPlayistTest"/>
-<!--            <class name="org.last.fm.AddTrackinPlaylistTest"/>-->
-<!--            <class name="org.last.fm.RemoveSongFromPlaylistTest"/>-->
-<!--            <class name="org.last.fm.DeletePlaylistTest"/>-->
-<!--            <class name="org.last.fm.LogOutTest"/>-->
+            <class name="org.last.fm.AddTrackinPlaylistTest"/>
+            <class name="org.last.fm.RemoveSongFromPlaylistTest"/>
+            <class name="org.last.fm.DeletePlaylistTest"/>
+            <class name="org.last.fm.LogOutTest"/>
 
         </classes>
     </test>

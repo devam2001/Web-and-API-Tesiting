@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.concurrent.TimeUnit;
+
 public class AddTrackInPlaylist {
 
     WebDriver driver;
@@ -29,9 +31,11 @@ public class AddTrackInPlaylist {
         AddTrack.click();
     }
     public void setSearchBox() throws InterruptedException {
+
         SearchBox.click();
+        TimeUnit.SECONDS.sleep(2);
         SearchBox.sendKeys("Dua Lipa");
-        Thread.sleep(2000);
+        TimeUnit.SECONDS.sleep(4);
         SearchBox.sendKeys(Keys.ENTER);
         SearchBox.sendKeys(Keys.ENTER);
     }

@@ -1,7 +1,8 @@
 package org.last.fm;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
+
+import java.util.concurrent.TimeUnit;
 
 public class AddTrackinPlaylistTest extends TestBase {
 
@@ -11,14 +12,16 @@ public class AddTrackinPlaylistTest extends TestBase {
 
         addT = new AddTrackInPlaylist(driver);
 
-        Thread.sleep(4000);
+        TimeUnit.SECONDS.sleep(4);
 
         addT.setAddTrack();
+        TimeUnit.SECONDS.sleep(3);
         addT.setSearchBox();
+        TimeUnit.SECONDS.sleep(2);
         addT.AddFunc();
-        Thread.sleep(3000);
+        TimeUnit.SECONDS.sleep(3);
         addT.setAddSimilarTracks();
-        Thread.sleep(5000);
+        TimeUnit.SECONDS.sleep(5);
 
     }
 }

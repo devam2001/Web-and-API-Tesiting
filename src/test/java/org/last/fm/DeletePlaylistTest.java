@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 public class DeletePlaylistTest extends TestBase{
 
     DeletePlaylist del;
@@ -11,15 +13,13 @@ public class DeletePlaylistTest extends TestBase{
     public void deleteplaylist() throws InterruptedException {
         del = new DeletePlaylist(driver);
 
+        TimeUnit.SECONDS.sleep(3);
         del.setDropDownPlaylist();
-        Thread.sleep(3000);
+        TimeUnit.SECONDS.sleep(3);
         del.setDelPlaylist();
-        Thread.sleep(2000);
+        TimeUnit.SECONDS.sleep(2);
         del.setDelBttn2();
 
     }
-    @AfterClass
-    void tearDown () {
-        driver.quit();
-    }
+
 }
