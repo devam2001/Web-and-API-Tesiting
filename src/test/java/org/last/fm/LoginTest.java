@@ -8,19 +8,13 @@ import org.testng.annotations.Test;
 import java.util.ResourceBundle;
 import java.util.concurrent.TimeUnit;
 
-public class LoginTest {
-    WebDriver driver;
+public class LoginTest extends TestBase {
     Login login;
     ResourceBundle bundle = ResourceBundle.getBundle("config");
 
-    @BeforeTest
-    public void setup() {
-        driver = BrowserFactory.setupBrowser("chrome", "https://www.last.fm/");
-        login = new Login(driver);
-    }
-
     @Test(priority = 2)
     public void loginVerification() throws InterruptedException {
+        login = new Login(driver);
         String username = bundle.getString("username");
         String password = bundle.getString("password");
         TimeUnit.SECONDS.sleep(6);
