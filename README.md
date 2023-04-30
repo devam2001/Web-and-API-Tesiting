@@ -1,33 +1,38 @@
-Last.fm WEB UI Testing Readme
-This repository contains automated tests for the Last.fm web UI using Selenium WebDriver and TestNG.
+# Last.fm WEB UI Testing
+This repository contains UI automation tests for Last.fm website using Selenium WebDriver.
 
-Prerequisites
-Java 8 or later
-Maven 3.6.3 or later
-ChromeDriver (or other WebDriver executable) installed and added to system path
-Getting started
-Clone this repository
-Navigate to the project directory in the terminal/command prompt
-Run mvn clean test to execute all tests or run specific test classes by specifying the class name as follows:
-Copy
-mvn clean test -Dtest=org.last.fm.FakeLoginTest
-```
-The test results will be outputted to the console and also saved to the target/surefire-reports directory
-Test classes
-org.last.fm.FakeLoginTest - Tests if the fake login functionality is working as expected.
-org.last.fm.LoginTest - Tests if a user can successfully log in to Last.fm.
-org.last.fm.LoginCheckTest - Tests if the user's login details are saved and displayed correctly.
-org.last.fm.AddPlaylistTest - Tests if a user can successfully create a new playlist.
-org.last.fm.EditDetailsOfPlayistTest - Tests if a user can successfully edit the details of a playlist.
-org.last.fm.AddTrackinPlaylistTest - Tests if a user can successfully add a track to a playlist.
-org.last.fm.RemoveSongFromPlaylistTest - Tests if a user can successfully remove a track from a playlist.
-org.last.fm.DeletePlaylistTest - Tests if a user can successfully delete a playlist.
-org.last.fm.LogOutTest - Tests if a user can successfully log out of Last.fm.
-Technologies used
-Selenium WebDriver
-TestNG
-Maven
-Contributors
-Your Name - Maintainer
-License
-This project is licensed under the MIT License.
+## Test Classes
+* FakeLoginTest - Simulates login to Last.fm 
+* LoginTest - Verifies successful login to Last.fm
+* LoginCheckTest - Verifies that user is logged in 
+* AddPlaylistTest - Adds a new playlist
+* EditDetailsOfPlaylistTest - Edits name and description of a playlist
+* AddTrackInPlaylistTest - Adds tracks to a playlist
+* RemoveSongFromPlaylistTest - Removes a track from a playlist
+* DeletePlaylistTest - Deletes a playlist
+* LogOutTest - Logs out from Last.fm
+
+## Technology Stack
+* Java
+* Selenium WebDriver
+* TestNG
+* Maven
+
+## How to Run
+1. Clone the repository
+2. Install Java, Maven and ChromeDriver
+3. Run `mvn clean test` on the command line
+4. Test report will be generated in `target/surefire-reports/` folder
+
+## Reporting
+HTML reports are generated using TestNG. Open `index.html` file in `target/surefire-reports/` to view the test run and results.
+
+## Improvements
+* Add more test scenarios to cover major functionality 
+* Add logs using a logging framework like Log4J
+* Integrate with a CI/CD pipeline
+* Add screenshots on failure
+* Add data driven testing
+* Improve test reliability using Page Object Model
+
+Please feel free to raise an issue for any bugs or suggestions.
