@@ -1,5 +1,5 @@
-# Last.fm WEB UI Testing
-This repository contains UI automation tests for Last.fm website using Selenium WebDriver.
+# Last.fm WEB Functionality Testing
+This repository contains Functionality automation tests for Last.fm website using Selenium WebDriver.
 
 ## Test Classes
 * FakeLoginTest - Simulates login to Last.fm 
